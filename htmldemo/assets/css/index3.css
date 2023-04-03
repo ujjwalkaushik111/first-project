@@ -1,0 +1,82 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:wght@500;700&display=swap');
+
+
+* {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    text-decoration: none;
+    box-sizing: border-box;
+}
+
+/* .container {
+    max-width: 1170px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 12px;
+    padding-right: 12px;
+} */
+
+
+
+
+.h1 {
+    color: #ffff;
+    font-style: bold;
+    font-size: 42px;
+    line-height: 52px;
+    text-align: center;
+    font-family: 'DM Sans', sans-serif;
+}
+
+.p {
+    color: #ffff;
+    font-size: 18px;
+    line-height: 28px;
+    text-align: center;
+    font-style: medium;
+    padding-bottom: 20px;
+    font-family: 'DM Sans', sans-serif;
+    margin-top: 29.2px;
+
+}
+
+.system {
+    background-color: #2F1893;
+}
+
+.d-flex {
+    display: flex;
+}
+
+.content {
+    justify-content: space-between;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.bolt {
+    border: 2px solid #2F1893;
+    max-width: 1171px;
+    max-height: 350px;
+    margin: 0 auto;
+}
+
+.boder {
+    border: 2px solid #ffffff34;
+    /* width: 25%; */
+    width: 270px;
+    height: 160px;
+    margin: 0 5px 30px 5px;
+    border-radius: 10px;
+}
+
+.display {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.mrt {
+    margin-top: 50px;
+}

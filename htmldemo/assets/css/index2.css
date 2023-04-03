@@ -1,0 +1,24 @@
+.container {
+    max-width: 781px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 12px;
+    padding-right: 12px;
+
+}
+
+.d-flex {
+    display: flex;
+}
+
+.justify_content_center {
+    justify-content: center;
+}
+
+.mar_top {
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
