@@ -149,11 +149,21 @@
     background-color: #FF5300;
 }
 
+@media(min-width:300px) {
+    .margin-top {
+        margin-top: 15px;
+    }
+}
+
 @media (min-width:576px) {
     .col_6_sm {
         width: 50%;
         padding-right: 12px;
         padding-left: 12px;
+    }
+
+    .margin-top {
+        margin-top: 15px;
     }
 }
 
@@ -163,6 +173,10 @@
         padding-right: 12px;
         padding-left: 12px;
     }
+
+    .margin-top {
+        margin-top: 15px;
+    }
 }
 
 @media (min-width:992px) {
@@ -170,5 +184,9 @@
         width: 25%;
         padding-left: 12px;
         padding-right: 12px;
+    }
+
+    .margin-top {
+        margin-top: 15px;
     }
 }
